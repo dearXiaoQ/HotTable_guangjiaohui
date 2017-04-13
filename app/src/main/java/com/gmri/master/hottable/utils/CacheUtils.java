@@ -1,4 +1,4 @@
-package com.gmri.master.hottable;
+package com.gmri.master.hottable.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

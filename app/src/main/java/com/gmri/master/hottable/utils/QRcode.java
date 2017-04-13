@@ -1,4 +1,4 @@
-package com.gmri.master.hottable;
+package com.gmri.master.hottable.utils;
 
 /**
  * Created by mars on 2017/2/23.

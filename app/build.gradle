@@ -24,13 +24,11 @@ android {
 }
 
 dependencies {
-  /*  dependencies {
+    /*  dependencies {
         compile fileTree(include: ['*.jar'], dir: 'libs')
         compile 'com.android.support:appcompat-v7:25.1.1'
     }*/
 
-    compile 'com.android.support:appcompat-v7:25.1.1'
-    testCompile 'junit:junit:4.12'
     compile files('libs/BLEasyConfig.jar')
     compile files('libs/core-3.2.1.jar')
     // compile pfiles('libs/easylink2.0.jar')
@@ -45,9 +43,12 @@ dependencies {
     compile files('libs/LSFSK_1.0.jar')
     compile files('libs/OneShotConfig.jar')
     compile files('libs/simpleconfigwizardlib.jar')
+
+
+
+    compile 'com.android.support:appcompat-v7:25.1.1'
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
-
-
     compile 'com.github.GwonHyeok:StickySwitch:0.0.8'
-
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
 }

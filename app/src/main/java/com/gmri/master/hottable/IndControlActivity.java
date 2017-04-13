@@ -19,6 +19,8 @@ import com.gizwits.gizwifisdk.api.GizWifiSDK;
 import com.gizwits.gizwifisdk.enumration.GizWifiErrorCode;
 import com.gizwits.gizwifisdk.listener.GizWifiDeviceListener;
 import com.gizwits.gizwifisdk.listener.GizWifiSDKListener;
+import com.gmri.master.hottable.entity.Variety;
+import com.gmri.master.hottable.utils.SqliteHandler;
 import com.iflytek.cloud.SpeechConstant;
 import com.iflytek.cloud.SpeechError;
 import com.iflytek.cloud.SpeechSynthesizer;
@@ -119,8 +121,6 @@ public class IndControlActivity extends Activity {
 
         controlView.setCurrentCount(statusOrginn);
         handlerReciverData(temperture);
-
-
     }
 
     /** 倒计时 */

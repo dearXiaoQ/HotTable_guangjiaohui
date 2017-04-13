@@ -1,4 +1,4 @@
-package com.gmri.master.hottable;
+package com.gmri.master.hottable.entity;
 
 /**
  * Created by xiaoQ on 2017/4/6.

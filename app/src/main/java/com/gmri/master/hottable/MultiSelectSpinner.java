@@ -17,6 +17,8 @@ import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.SpinnerAdapter;
 
+import com.gmri.master.hottable.entity.Variety;
+
 public class MultiSelectSpinner extends android.support.v7.widget.AppCompatSpinner implements OnMultiChoiceClickListener {
         String[] _items = null;
     boolean[] _selection = null;

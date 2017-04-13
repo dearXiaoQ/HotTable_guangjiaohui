@@ -1,4 +1,4 @@
-package com.gmri.master.hottable;
+package com.gmri.master.hottable.utils;
 
 /**
  * Created by xiaoQ on 2017/4/6.
@@ -9,6 +9,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
+
+import com.gmri.master.hottable.entity.Variety;
 
 import java.io.Closeable;
 import java.util.ArrayList;
